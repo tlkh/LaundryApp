@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="256.68947368421044" y="0.0">com.example.khong.term4_java1d.UserUsage.ChartDataAdapter</node>
+    <node x="177.72982456140346" y="293.0">com.example.khong.term4_java1d.WasherView</node>
+    <node x="0.0" y="629.0">com.example.khong.term4_java1d.MainActivity</node>
+    <node x="176.0644736842105" y="461.0">com.example.khong.term4_java1d.DryerView</node>
+    <node x="11.63947368421043" y="169.0">com.example.khong.term4_java1d.LogoutActivity</node>
+    <node x="278.18947368421044" y="147.0">com.example.khong.term4_java1d.UserUsage</node>
+    <node x="194.24999999999997" y="907.0">com.example.khong.term4_java1d.ChooseBlock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.khong.term4_java1d.ChooseBlock" target="com.example.khong.term4_java1d.MainActivity">
+      <point x="-111.75" y="-37.0" />
+      <point x="231.49999999999997" y="882.0" />
+      <point x="83.5" y="882.0" />
+      <point x="-83.5" y="114.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.WasherView" target="com.example.khong.term4_java1d.ChooseBlock">
+      <point x="123.74999999999999" y="59.0" />
+      <point x="466.47982456140346" y="431.0" />
+      <point x="516.5644736842105" y="431.0" />
+      <point x="516.5644736842105" y="882.0" />
+      <point x="455.0" y="882.0" />
+      <point x="111.75" y="-37.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.MainActivity" target="com.example.khong.term4_java1d.ChooseBlock">
+      <point x="83.5" y="114.0" />
+      <point x="250.5" y="882.0" />
+      <point x="306.0" y="882.0" />
+      <point x="-37.25" y="-37.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.DryerView" target="com.example.khong.term4_java1d.ChooseBlock">
+      <point x="82.49999999999994" y="59.0" />
+      <point x="423.56447368421044" y="882.0" />
+      <point x="380.5" y="882.0" />
+      <point x="37.25" y="-37.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.UserUsage" target="com.example.khong.term4_java1d.UserUsage.ChartDataAdapter">
+      <point x="-79.66666666666669" y="-48.0" />
+      <point x="318.02280701754376" y="122.0" />
+      <point x="303.68947368421044" y="122.0" />
+      <point x="-94.0" y="48.5" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.MainActivity" target="com.example.khong.term4_java1d.WasherView">
+      <point x="66.79999999999995" y="-114.0" />
+      <point x="233.79999999999995" y="599.0" />
+      <point x="161.01447368421046" y="599.0" />
+      <point x="161.01447368421046" y="441.0" />
+      <point x="218.97982456140346" y="441.0" />
+      <point x="-123.75" y="59.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.DryerView" target="com.example.khong.term4_java1d.UserUsage">
+      <point x="123.74999999999994" y="-59.0" />
+      <point x="464.81447368421044" y="441.0" />
+      <point x="518.2298245614035" y="441.0" />
+      <point x="518.2298245614035" y="273.0" />
+      <point x="477.3561403508771" y="273.0" />
+      <point x="79.66666666666669" y="48.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.MainActivity" target="com.example.khong.term4_java1d.DryerView">
+      <point x="133.60000000000002" y="-114.0" />
+      <point x="300.6" y="609.0" />
+      <point x="258.5644736842105" y="609.0" />
+      <point x="-82.5" y="59.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.UserUsage.ChartDataAdapter" target="com.example.khong.term4_java1d.UserUsage">
+      <point x="94.0" y="48.5" />
+      <point x="491.68947368421044" y="122.0" />
+      <point x="477.3561403508771" y="122.0" />
+      <point x="79.66666666666669" y="-48.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.MainActivity" target="com.example.khong.term4_java1d.LogoutActivity">
+      <point x="-66.80000000000007" y="-114.0" />
+      <point x="100.19999999999993" y="609.0" />
+      <point x="101.33903508771925" y="609.0" />
+      <point x="101.33903508771925" y="263.0" />
+      <point x="87.76447368421043" y="263.0" />
+      <point x="-25.375" y="26.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.DryerView" target="com.example.khong.term4_java1d.LogoutActivity">
+      <point x="-123.75000000000006" y="-59.0" />
+      <point x="217.31447368421044" y="431.0" />
+      <point x="112.33903508771925" y="431.0" />
+      <point x="112.33903508771925" y="263.0" />
+      <point x="138.51447368421043" y="263.0" />
+      <point x="25.375" y="26.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.MainActivity" target="com.example.khong.term4_java1d.UserUsage">
+      <point x="0.0" y="-114.0" />
+      <point x="167.0" y="609.0" />
+      <point x="129.63947368421043" y="609.0" />
+      <point x="129.63947368421043" y="273.0" />
+      <point x="318.02280701754376" y="273.0" />
+      <point x="-79.66666666666669" y="48.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.WasherView" target="com.example.khong.term4_java1d.UserUsage">
+      <point x="82.5" y="-59.0" />
+      <point x="425.22982456140346" y="273.0" />
+      <point x="397.68947368421044" y="273.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.WasherView" target="com.example.khong.term4_java1d.DryerView">
+      <point x="41.25" y="59.0" />
+      <point x="383.97982456140346" y="441.0" />
+      <point x="382.31447368421044" y="441.0" />
+      <point x="41.24999999999994" y="-59.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.LogoutActivity" target="com.example.khong.term4_java1d.MainActivity">
+      <point x="-76.125" y="26.0" />
+      <point x="37.01447368421043" y="273.0" />
+      <point x="90.33903508771925" y="273.0" />
+      <point x="90.33903508771925" y="609.0" />
+      <point x="33.39999999999998" y="609.0" />
+      <point x="-133.60000000000002" y="-114.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.DryerView" target="com.example.khong.term4_java1d.WasherView">
+      <point x="-41.25000000000006" y="-59.0" />
+      <point x="299.81447368421044" y="441.0" />
+      <point x="301.47982456140346" y="441.0" />
+      <point x="-41.25" y="59.0" />
+    </edge>
+    <edge source="com.example.khong.term4_java1d.WasherView" target="com.example.khong.term4_java1d.LogoutActivity">
+      <point x="-82.5" y="-59.0" />
+      <point x="260.22982456140346" y="263.0" />
+      <point x="189.26447368421043" y="263.0" />
+      <point x="76.125" y="26.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="330.5" y="344.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
