@@ -244,12 +244,12 @@ public class MainActivity extends AppCompatActivity {
                 washersNotifyAllImgBtn.setUnavailable();
                 dryersNotifyAllImgBtn.setUnavailable();
 
-                if (washersCountNo_final==0 && washerNEnabled > 11) {
+                if (washersCountNo_final == 0 && washerNEnabled > 11) {
                     washersNotifyAllImgBtn.setChecked(true);
                     washersNotifyAllImgBtn.washerOnClickFunction(userBlockChoice);
                 }
 
-                if (dryersCountNo_final==0 && dryerNEnabled > 8) {
+                if (dryersCountNo_final == 0 && dryerNEnabled > 8) {
                     dryersNotifyAllImgBtn.setChecked(true);
                     dryersNotifyAllImgBtn.dryerOnClickFunction(userBlockChoice);
                 }
@@ -261,7 +261,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("blockChoice/DBError", databaseError.toString());
             }
         };
-        userBlockChoiceRef.addValueEventListener(blockChoiceListener);
+        userBlockChoiceRef.addListenerForSingleValueEvent(blockChoiceListener);
 
         String washersText = washersCountNo + "/" + totalWashers;
         String dryersText = dryersCountNo + "/" + totalDryers;
